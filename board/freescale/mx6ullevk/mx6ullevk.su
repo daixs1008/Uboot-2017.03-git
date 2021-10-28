@@ -1,0 +1,9 @@
+mx6ullevk.c:405:6:do_enable_parallel_lcd	8	static
+mx6ullevk.c:225:5:dram_init	8	static
+mx6ullevk.c:346:5:board_phy_config	24	static
+mx6ullevk.c:357:5:board_mmc_get_env_dev	0	static
+mx6ullevk.c:362:5:mmc_map_to_kernel_blk	0	static
+mx6ullevk.c:460:5:board_early_init_f	8	static
+mx6ullevk.c:467:5:board_init	8	static
+mx6ullevk.c:501:5:board_late_init	8	static
+mx6ullevk.c:530:5:checkboard	8	static
