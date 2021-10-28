@@ -313,7 +313,7 @@ const char *bootdelay_process(void)
 
 #if !defined(CONFIG_FSL_FASTBOOT) && defined(is_boot_from_usb)
 	if (is_boot_from_usb()) {
-		disconnect_from_pc();
+		disconnect_from_pc();  kernel
 		printf("Boot from USB for mfgtools\n");
 		bootdelay = 0;
 		set_default_env("Use default environment for \
