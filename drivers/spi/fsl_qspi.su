@@ -1,0 +1,13 @@
+fsl_qspi.c:1282:12:fsl_qspi_set_speed	0	static
+fsl_qspi.c:1067:12:fsl_qspi_child_pre_probe	8	static
+fsl_qspi.c:1186:12:fsl_qspi_ofdata_to_platdata	48	static
+fsl_qspi.c:148:12:qspi_read32	0	static
+fsl_qspi.c:154:13:qspi_write32	0	static
+fsl_qspi.c:1288:12:fsl_qspi_set_mode	0	static
+fsl_qspi.c:823:5:qspi_xfer	48	static
+fsl_qspi.c:1241:12:fsl_qspi_xfer	24	static
+fsl_qspi.c:896:6:qspi_module_disable	8	static
+fsl_qspi.c:1269:12:fsl_qspi_release_bus	8	static
+fsl_qspi.c:1253:12:fsl_qspi_claim_bus	16	static
+fsl_qspi.c:908:6:qspi_cfg_smpr	8	static
+fsl_qspi.c:1076:12:fsl_qspi_probe	16	static
