@@ -170,13 +170,13 @@ add_status:
 				printf("Unable to update property %s:%s, err=%s\n",
 					mx6_fuse_descs[i].node_path, "status", fdt_strerror(rc));
 			} else {
-				printf("Modify %s:%s disabled\n",
+				printf("Modify %s:%s disabled\n",              //30.-Modify /soc/aips-bus@02200000/epdc@0228c000:status disabled
 					mx6_fuse_descs[i].node_path, "status");
 			}
 		}
 	}
 
-	printf("ft_system_setup for mx6\n");
+	printf("ft_system_setup for mx6\n");    //31.-ft_system_setup for mx6
 
 	return 0;
 }

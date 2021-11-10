@@ -403,7 +403,7 @@ static int do_onenand_read(cmd_tbl_t * cmdtp, int flag, int argc, char * const a
 
 	ret = onenand_block_read(ofs, len, &retlen, (u8 *)addr, oob);
 
-	printf(" %d bytes read: %s\n", retlen, ret ? "ERROR" : "OK");
+	printf(" %d bytes read: %s\n", retlen, ret ? "ERROR" : "OK");  //23.-7924928 bytes read in 408 ms (18.5 MiB/s)
 
 	return ret == 0 ? 0 : 1;
 }

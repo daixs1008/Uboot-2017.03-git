@@ -45,7 +45,7 @@ static int coreboot_video_probe(struct udevice *dev)
 	struct vesa_mode_info *vesa = &mode_info.vesa;
 	int ret;
 
-	printf("Video: ");
+	printf("Video: ");   //  10.-Video: 1024x600x24
 
 	/* Initialize vesa_mode_info structure */
 	ret = save_vesa_mode(fb, vesa);
@@ -56,7 +56,7 @@ static int coreboot_video_probe(struct udevice *dev)
 	if (ret)
 		goto err;
 
-	printf("%dx%dx%d\n", uc_priv->xsize, uc_priv->ysize,
+	printf("%dx%dx%d\n", uc_priv->xsize, uc_priv->ysize,  // //  10.-Video: 1024x600x24
 	       vesa->bits_per_pixel);
 
 	return 0;

@@ -1,4 +1,4 @@
-Verified Boot on the Beaglebone Black
+Verified Boot on the Beaglebone Black 贝格尔伯恩黑号已确认开机
 =====================================
 
 Introduction
@@ -15,7 +15,7 @@ However, it might be useful to also have an example on a real board.
 Beaglebone Black is a fairly common board so seems to be a reasonable choice
 for an example of how to enable verified boot using U-Boot.
 
-First a note that may to help avoid confusion. U-Boot and Linux both use
+First a note that may to help avoid confusion. U-Boot and Linux both use     //confusion  n. 困惑，不明确；混淆，混同；慌乱，窘迫；混乱局面，乱成一团
 device tree. They may use the same device tree source, but it is seldom useful
 for them to use the exact same binary from the same place. More typically,
 U-Boot has its device tree packaged wtih it, and the kernel's device tree is

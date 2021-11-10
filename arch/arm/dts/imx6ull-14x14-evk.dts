@@ -12,7 +12,7 @@
 #include "imx6ull.dtsi"
 
 / {
-	model = "Freescale i.MX6 ULL 14x14 EVK Board";
+	model = "Freescale i.MX6 ULL 14x14 EVK Board";     //5.-Model: Freescale i.MX6 ULL 14x14 EVK Board
 	compatible = "fsl,imx6ull-14x14-evk", "fsl,imx6ull";
 
 	chosen {

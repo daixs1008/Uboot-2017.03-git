@@ -27,7 +27,7 @@ static int fs_type = FS_TYPE_ANY;
 static inline int fs_probe_unsupported(struct blk_desc *fs_dev_desc,
 				      disk_partition_t *fs_partition)
 {
-	printf("** Unrecognized filesystem type **\n");
+	printf("** Unrecognized filesystem type **\n");  //22.-** Unrecognized filesystem type **
 	return -1;
 }
 

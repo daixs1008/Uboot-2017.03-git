@@ -173,7 +173,7 @@ int boot_relocate_fdt(struct lmb *lmb, char **of_flat_tree, ulong *of_size)
 		 * for padding
 		 */
 		fdt_set_totalsize(of_start, of_len);
-		printf("   Using Device Tree in place at %p, end %p\n",
+		printf("   Using Device Tree in place at %p, end %p\n",   //29.-   Using Device Tree in place at 83000000, end 8300c5e1
 		       of_start, of_start + of_len - 1);
 	} else {
 		debug("## device tree at %p ... %p (len=%ld [0x%lX])\n",
@@ -377,7 +377,7 @@ int boot_get_fdt(int flag, int argc, char * const argv[], uint8_t arch,
 				 * FDT blob
 				 */
 				debug("*  fdt: raw FDT blob\n");
-				printf("## Flattened Device Tree blob at %08lx\n",
+				printf("## Flattened Device Tree blob at %08lx\n",  //27.-## Flattened Device Tree blob at 83000000
 				       (long)fdt_addr);
 			}
 			break;
@@ -386,7 +386,7 @@ int boot_get_fdt(int flag, int argc, char * const argv[], uint8_t arch,
 			goto no_fdt;
 		}
 
-		printf("   Booting using the fdt blob at %#08lx\n", fdt_addr);
+		printf("   Booting using the fdt blob at %#08lx\n", fdt_addr);  //28.-   Booting using the fdt blob at 0x83000000   ////common\image-fdt.c
 		fdt_blob = map_sysmem(fdt_addr, 0);
 	} else if (images->legacy_hdr_valid &&
 			image_check_type(&images->legacy_hdr_os_copy,

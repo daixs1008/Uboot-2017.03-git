@@ -238,7 +238,7 @@ int bootm_find_images(int flag, int argc, char * const argv[])
 
 #if IMAGE_ENABLE_OF_LIBFDT
 	/* find flattened device tree */
-	ret = boot_get_fdt(flag, argc, argv, IH_ARCH_DEFAULT, &images,
+	ret = boot_get_fdt(flag, argc, argv, IH_ARCH_DEFAULT, &images,  //27.-## Flattened Device Tree blob at 83000000
 			   &images.ft_addr, &images.ft_len);
 	if (ret) {
 		puts("Could not find a valid device tree\n");

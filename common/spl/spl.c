@@ -134,7 +134,7 @@ int spl_parse_image_header(struct spl_image_info *spl_image,
 #ifdef CONFIG_SPL_OS_BOOT
 		ulong start, end;
 
-		if (!bootz_setup((ulong)header, &start, &end)) {
+		if (!bootz_setup((ulong)header, &start, &end)) {   //26.-Kernel image @ 0x80800000 [ 0x000000 - 0x78ecc0 ]
 			spl_image->name = "Linux";
 			spl_image->os = IH_OS_LINUX;
 			spl_image->load_addr = CONFIG_SYS_LOAD_ADDR;

@@ -363,7 +363,7 @@ KBUILD_CFLAGS   := -Wall -Wstrict-prototypes \
 KBUILD_AFLAGS   := -D__ASSEMBLY__
 
 # Read UBOOTRELEASE from include/config/uboot.release (if it exists)
-UBOOTRELEASE = $(shell cat include/config/uboot.release 2> /dev/null)
+UBOOTRELEASE = $(shell cat include/config/uboot.release 2> /dev/null)   //内容：2017.03-g53a52238d9
 UBOOTVERSION = $(VERSION)$(if $(PATCHLEVEL),.$(PATCHLEVEL)$(if $(SUBLEVEL),.$(SUBLEVEL)))$(EXTRAVERSION)
 
 export VERSION PATCHLEVEL SUBLEVEL UBOOTRELEASE UBOOTVERSION

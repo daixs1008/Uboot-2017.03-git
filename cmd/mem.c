@@ -1305,7 +1305,7 @@ U_BOOT_CMD(
 #ifdef CONFIG_CMD_MEMINFO
 __weak void board_show_dram(phys_size_t size)
 {
-	puts("DRAM:  ");
+	puts("DRAM:  ");      //7.-DRAM:  512 MiB
 	print_size(size, "\n");
 }
 

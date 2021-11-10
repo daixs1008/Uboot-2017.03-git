@@ -1,0 +1,164 @@
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\expr.h
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\zconf.y
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\expr.c
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\mconf.c
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\.gitignore
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\nconf.c
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\POTFILES.in
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\qconf.h
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\lkc.h
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\streamline_config.pl
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\images.c
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\lxdialog
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\lxdialog\.gitignore
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\lxdialog\textbox.c
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\lxdialog\inputbox.c
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\lxdialog\checklist.c
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\lxdialog\dialog.h
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\lxdialog\yesno.c
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\lxdialog\util.c
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\lxdialog\BIG.FAT.WARNING
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\lxdialog\menubox.c
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\lxdialog\check-lxdialog.sh
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\gconf.glade
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\nconf.h
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\lkc_proto.h
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\menu.c
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\kxgettext.c
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\merge_config.sh
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\zconf.gperf
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\zconf.lex.c_shipped
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\gconf.c
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\qconf.cc
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\Makefile
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\conf.c
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\symbol.c
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\list.h
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\zconf.l
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\confdata.c
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\check.sh
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\nconf.gui.c
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\util.c
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\zconf.hash.c_shipped
+!   系统找不到指定的路径。
+    无法创建 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\scripts\kconfig\zconf.tab.c_shipped
+!   系统找不到指定的路径。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\arch\arm\dts\include\dt-bindings
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\arch\microblaze\dts\include\dt-bindings
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\arch\sandbox\dts\include\dt-bindings
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\arch\mips\dts\include\dt-bindings
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\arch\nios2\dts\include\dt-bindings
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\arch\x86\dts\include\dt-bindings
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\arch\xtensa\dts\include\dt-bindings
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\refs
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\hooks
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\logs
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\objects
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\config
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\svn
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\packed-refs
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\rr-cache
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\info
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\description
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\tools\binman\binman
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\tools\microcode-tool
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\tools\dtoc\dtoc
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\tools\buildman\buildman
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\tools\patman\patman
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\arch\arm\dts\include\dt-bindings
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\arch\microblaze\dts\include\dt-bindings
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\arch\sandbox\dts\include\dt-bindings
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\arch\mips\dts\include\dt-bindings
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\arch\nios2\dts\include\dt-bindings
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\arch\x86\dts\include\dt-bindings
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\arch\xtensa\dts\include\dt-bindings
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\refs
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\hooks
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\logs
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\objects
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\config
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\svn
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\packed-refs
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\rr-cache
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\info
+!   客户端没有所需的特权。
+    F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03.tar.bz2: 无法创建符号链接 F:\share\si-project\Uboot-2017.03-git\Uboot-2017.03\Uboot-2017.03\.git\description
+!   客户端没有所需的特权。

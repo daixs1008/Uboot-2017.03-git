@@ -151,7 +151,7 @@
 	"loadimage=ext2load mmc ${mmcdev}:${mmcpart} ${loadaddr} ${bootdir}/${image}\0" \
 	"loadfdt=ext2load mmc ${mmcdev}:${mmcpart} ${fdt_addr} ${bootdir}/${fdt_file}\0" \
 	"loadtee=fatload mmc ${mmcdev}:${mmcpart} ${tee_addr} ${tee_file}\0" \
-	"mmcboot=echo Booting from mmc ...; " \
+	"mmcboot=echo Booting from mmc ...; " \     //24.-Booting from mmc ...   //-include\configs\mx6ullevk.h   //-include\configs\mx6ul_14x14_evk.h 
 		"run mmcargs; " \
 		"if test ${tee} = yes; then " \
 			"run loadfdt; run loadtee; bootm ${tee_addr} - ${fdt_addr}; " \

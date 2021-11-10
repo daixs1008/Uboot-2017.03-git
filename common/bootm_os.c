@@ -446,10 +446,10 @@ static int do_bootm_openrtos(int flag, int argc, char * const argv[],
 
 static boot_os_fn *boot_os[] = {
 	[IH_OS_U_BOOT] = do_bootm_standalone,
-#ifdef CONFIG_BOOTM_LINUX
-	[IH_OS_LINUX] = do_bootm_linux,
+#ifdef CONFIG_BOOTM_LINUX   // -include\config_defaults.h   #define CONFIG_BOOTM_LINUX 1 
+	[IH_OS_LINUX] = do_bootm_linux,  
 #endif
-#ifdef CONFIG_BOOTM_NETBSD
+#ifdef CONFIG_BOOTM_NETBSD   // 1
 	[IH_OS_NETBSD] = do_bootm_netbsd,
 #endif
 #ifdef CONFIG_LYNXKDI
@@ -461,10 +461,10 @@ static boot_os_fn *boot_os[] = {
 #if defined(CONFIG_BOOTM_OSE)
 	[IH_OS_OSE] = do_bootm_ose,
 #endif
-#if defined(CONFIG_BOOTM_PLAN9)
+#if defined(CONFIG_BOOTM_PLAN9)   // 1
 	[IH_OS_PLAN9] = do_bootm_plan9,
 #endif
-#if defined(CONFIG_BOOTM_VXWORKS) && \
+#if defined(CONFIG_BOOTM_VXWORKS) && \    // -include\config_defaults.h   #define CONFIG_BOOTM_VXWORKS 1
 	(defined(CONFIG_PPC) || defined(CONFIG_ARM))
 	[IH_OS_VXWORKS] = do_bootm_vxworks,
 #endif

@@ -55,7 +55,7 @@ int board_video_skip(void)
 			if (displays[i].enable)
 				displays[i].enable(displays + i);
 
-			printf("Display: %s (%ux%u)\n",
+			printf("Display: %s (%ux%u)\n",  //9.-Display: TFT7016 (1024x600)
 			       displays[i].mode.name,
 			       displays[i].mode.xres,
 			       displays[i].mode.yres);

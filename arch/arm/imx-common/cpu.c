@@ -203,7 +203,7 @@ int print_cpuinfo(void)
 	struct udevice *thermal_dev;
 	int cpu_tmp, minc, maxc, ret;
 
-	printf("CPU:   Freescale i.MX%s rev%d.%d",
+	printf("CPU:   Freescale i.MX%s rev%d.%d",           //2.-CPU:   Freescale i.MX6ULL rev1.1 696 MHz (running at 396 MHz) 
 	       get_imx_type((cpurev & 0xFF000) >> 12),
 	       (cpurev & 0x000F0) >> 4,
 	       (cpurev & 0x0000F) >> 0);
@@ -229,7 +229,7 @@ int print_cpuinfo(void)
 		puts("Automotive temperature grade ");
 		break;
 	case TEMP_INDUSTRIAL:
-		puts("Industrial temperature grade ");
+		puts("Industrial temperature grade ");   //3.-CPU:   Industrial temperature grade (-40C to 105C) at 37C
 		break;
 	case TEMP_EXTCOMMERCIAL:
 		puts("Extended Commercial temperature grade ");
@@ -265,7 +265,7 @@ int print_cpuinfo(void)
 		       readl(&dbg->snvs_info));
 #endif
 
-	printf("Reset cause: %s\n", get_reset_cause());
+	printf("Reset cause: %s\n", get_reset_cause());  // 4.-Reset cause: POR
 	return 0;
 }
 #endif

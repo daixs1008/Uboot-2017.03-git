@@ -524,7 +524,7 @@ int board_late_init(void)
 
 	set_wdog_reset((struct wdog_regs *)WDOG1_BASE_ADDR);
 
-	return 0;
+	return 0;,,
 }
 
 int checkboard(void)
@@ -532,7 +532,7 @@ int checkboard(void)
 	if (is_mx6ull_9x9_evk())
 		puts("Board: MX6ULL 9x9 EVK\n");
 	else
-		puts("Board: MX6ULL 14x14 EVK\n");
+		puts("Board: MX6ULL 14x14 EVK\n");  //6.-Board: MX6ULL 14x14 EVK
 
 	return 0;
 }
