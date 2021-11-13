@@ -1050,9 +1050,9 @@ void board_init_f(ulong boot_flags)
 {
 #ifdef CONFIG_SYS_GENERIC_GLOBAL_DATA
 	/*
-	 * For some architectures, global data is initialized and used before
+	 * For some architectures, global data is initialized and used before  //对于某些架构，全局数据在调用该函数之前被初始化并使用。 数据应该被保存  
 	 * calling this function. The data should be preserved. For others,
-	 * CONFIG_SYS_GENERIC_GLOBAL_DATA should be defined and use the stack
+	 * CONFIG_SYS_GENERIC_GLOBAL_DATA should be defined and use the stack  //对于其他人，应该定义CONFIG_SYS_GENERIC_GLOBAL_DATA并使用这里的堆栈来承载全局数据，直到重新定位  
 	 * here to host global data until relocation.
 	 */
 	gd_t data;
@@ -1060,11 +1060,11 @@ void board_init_f(ulong boot_flags)
 	gd = &data;
 
 	/*
-	 * Clear global data before it is accessed at debug print
+	 * Clear global data before it is accessed at debug print   //在调试打印时在initcall_run_list中访问全局数据之前清除它。  
 	 * in initcall_run_list. Otherwise the debug print probably
-	 * get the wrong value of gd->have_console.
+	 * get the wrong value of gd->have_console.    //否则，调试打印可能会得到错误的gd->have_console值。  
 	 */
-	zero_global_data();
+	zero_global_data();  //clean global data 
 #endif
 
 	gd->flags = boot_flags;

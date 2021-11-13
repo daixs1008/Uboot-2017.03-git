@@ -209,7 +209,7 @@ static void boot_prep_linux(bootm_headers_t *images)
 	char *commandline = getenv("bootargs");
 
 	if (IMAGE_ENABLE_OF_LIBFDT && images->ft_len) {
-#ifdef CONFIG_OF_LIBFDT
+#ifdef CONFIG_OF_LIBFDT   //如果支持设备树走这个分支
 		debug("using: FDT\n");
 		if (image_setup_linux(images)) {
 			printf("FDT creation failed! hanging...");

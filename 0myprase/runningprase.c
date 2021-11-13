@@ -1,9 +1,24 @@
 
+
+do_bootm(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv [ ])
+	do_bootm_linux(int flag, int argc, char * const argv [ ], bootm_headers_t * images)
+		boot_prep_linux-(images);
+		boot_jump_linux-(images, flag);
+
+
+
+
+
+
 printf("%s, %d\n"__FILE__,__LINE__);
 printf("%s , %s , %d\n", __FILE__, __FUNCTION__,__LINE__);
 
 
 Uboot  有两个过程，1.配置过程	2.根据配置的内容制作Uboot的过程
+
+
+Makefile 中输出信息    	：指令前要添加TAB键
+@echo "make start**********************"
 
 
 配置过程如下：

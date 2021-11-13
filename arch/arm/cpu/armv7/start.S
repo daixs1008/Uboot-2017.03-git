@@ -73,8 +73,8 @@ switch_to_hypervisor_ret:
 	bic	r0, #CR_V		@ V = 0
 	mcr	p15, 0, r0, c1, c0, 0	@ Write CP15 SCTLR Register
 
-	/* Set vector address in CP15 VBAR register */
-	ldr	r0, =_start
+	/* Set vector address in CP15 VBAR register */ 
+	ldr	r0, =_start       // //-Uboot-2017.03\arch\arm\lib\vectors.S
 	mcr	p15, 0, r0, c12, c0, 0	@Set VBAR
 #endif
 
@@ -135,7 +135,7 @@ ENDPROC(switch_to_hypervisor)
  *************************************************************************/
 ENTRY(cpu_init_cp15)
 	/*
-	 * Invalidate L1 I/D
+	 * Invalidate L1 I/D   //失能 L1 缓存，指令缓存和数据缓存 
 	 */
 	mov	r0, #0			@ set up for MCR
 	mcr	p15, 0, r0, c8, c7, 0	@ invalidate TLBs
@@ -145,7 +145,7 @@ ENTRY(cpu_init_cp15)
 	mcr     p15, 0, r0, c7, c5, 4	@ ISB
 
 	/*
-	 * disable MMU stuff and caches
+	 * disable MMU stuff and caches  //失能  MMU 高速缓存和缓存
 	 */
 	mrc	p15, 0, r0, c1, c0, 0
 	bic	r0, r0, #0x00002000	@ clear bits 13 (--V-)
@@ -160,7 +160,7 @@ ENTRY(cpu_init_cp15)
 	mcr	p15, 0, r0, c1, c0, 0
 
 #ifdef CONFIG_ARM_ERRATA_716044
-	mrc	p15, 0, r0, c1, c0, 0	@ read system control register
+	mrc	p15, 0, r0, c1, c0, 0	@ read system control register   //协处理器的都改写操作
 	orr	r0, r0, #1 << 11	@ set bit #11
 	mcr	p15, 0, r0, c1, c0, 0	@ write system control register
 #endif
@@ -196,10 +196,10 @@ ENTRY(cpu_init_cp15)
 	mov	r5, lr			@ Store my Caller
 	mrc	p15, 0, r1, c0, c0, 0	@ r1 has Read Main ID Register (MIDR)
 	mov	r3, r1, lsr #20		@ get variant field
-	and	r3, r3, #0xf		@ r3 has CPU variant
-	and	r4, r1, #0xf		@ r4 has CPU revision
-	mov	r2, r3, lsl #4		@ shift variant field for combined value
-	orr	r2, r4, r2		@ r2 has combined CPU variant + revision
+	and	r3, r3, #0xf		@ r3 has CPU variant  //r3 保存CPU的变量
+	and	r4, r1, #0xf		@ r4 has CPU revision  //r4 保存CPU的修正
+	mov	r2, r3, lsl #4		@ shift variant field for combined value  //切换变量字段的组合值
+	orr	r2, r4, r2		@ r2 has combined CPU variant + revision  
 
 #ifdef CONFIG_ARM_ERRATA_798870
 	cmp	r2, #0x30		@ Applies to lower than R3p0
@@ -276,8 +276,8 @@ skip_errata_430973:
 skip_errata_621766:
 #endif
 
-	mov	pc, r5			@ back to my caller
-ENDPROC(cpu_init_cp15)
+	mov	pc, r5			@ back to my caller 
+ENDPROC(cpu_init_cp15)  //cpu_init_cp15 调用结束
 
 #if !defined(CONFIG_SKIP_LOWLEVEL_INIT) && \
 	!defined(CONFIG_SKIP_LOWLEVEL_INIT_ONLY)

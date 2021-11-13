@@ -43,7 +43,7 @@ static void run_preboot_environment_command(void)
 /* We come here after U-Boot is initialised and ready to process commands */
 void main_loop(void)
 {
-	const char *s;
+	const char *s;  do_bootm(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv [ ])
 
 	bootstage_mark_name(BOOTSTAGE_ID_MAIN_LOOP, "main_loop");
 

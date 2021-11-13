@@ -395,8 +395,8 @@ ulong spl_relocate_stack_gd(void)
 #endif
 	/* Get stack position: use 8-byte alignment for ABI compliance */
 	ptr = CONFIG_SPL_STACK_R_ADDR - roundup(sizeof(gd_t),16);
-	new_gd = (gd_t *)ptr;
-	memcpy(new_gd, (void *)gd, sizeof(gd_t));
+	new_gd = (gd_t *)ptr;    //新的 GD 变量的地址
+	memcpy(new_gd, (void *)gd, sizeof(gd_t));  //复制 GD　变量的内容　到新地址中去
 #if CONFIG_IS_ENABLED(DM)
 	dm_fixup_for_gd_move(new_gd);
 #endif

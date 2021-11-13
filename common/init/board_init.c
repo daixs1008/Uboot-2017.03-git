@@ -20,20 +20,20 @@ __weak void arch_setup_gd(struct global_data *gd_ptr)
 #endif /* !CONFIG_X86 && !CONFIG_ARM */
 
 /*
- * Allocate reserved space for use as 'globals' from 'top' address and
- * return 'bottom' address of allocated space
+ * Allocate reserved space for use as 'globals' from 'top' address and  //从“top”地址分配预留空间作为“globals”使用， 
+ * return 'bottom' address of allocated space                            //并返回分配空间的“bottom”地址 
  *
  * Notes:
  *
- * Actual reservation cannot be done from within this function as
- * it requires altering the C stack pointer, so this will be done by
+ * Actual reservation cannot be done from within this function as   //实际的保留不能在这个函数内完成，
+ * it requires altering the C stack pointer, so this will be done by  //因为它需要改变C堆栈指针，因此这将由调用者在从这个函数返回时完成。  
  * the caller upon return from this function.
  *
  * IMPORTANT:
  *
- * Alignment constraints may differ for each 'chunk' allocated. For now:
+ * Alignment constraints may differ for each 'chunk' allocated. For now:  //对于分配的每个“块”，对齐约束可能不同。
  *
- * - GD is aligned down on a 16-byte boundary
+ * - GD is aligned down on a 16-byte boundary  //GD按16字节边界向下对齐
  *
  *  - the early malloc arena is not aligned, therefore it follows the stack
  *   alignment constraint of the architecture for which we are bulding.

@@ -347,8 +347,8 @@ const char *bootdelay_process(void)
 		s = getenv("altbootcmd");
 	} else
 #endif /* CONFIG_BOOTCOUNT_LIMIT */
-		s = getenv("bootcmd");
-
+		s = getenv("bootcmd"); 
+	//mx6ul_14x14_evk.h (include\configs) line 116 : "bootcmd=nand read ${loadaddr} 0x4000000 0x800000;"\ 0x4000000->64M  0x800000->8M
 #if !defined(CONFIG_FSL_FASTBOOT) && defined(is_boot_from_usb)
 	if (is_boot_from_usb()) {
 		s = getenv("bootcmd_mfg");
